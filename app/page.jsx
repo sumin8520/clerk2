@@ -33,12 +33,28 @@ export default function Home() {
           href="http://localhost:3000/api/courses"
           className="text-xl text-blue-700 font-bold"
         >
-          Backend API
+          Backend API 활용
         </Link>
         <p className="mb-2">
           Provide Backend API service that provide extensive courses information
           in web development
         </p>
+      </div>
+      <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
+        <Link
+          href="https://github.com/sumin8520/clerk2"
+          className="text-xl text-blue-700 font-bold"
+        >
+          Github repository
+        </Link>
+      </div>
+      <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
+        <Link
+          href="hcj2-clerk2.vercel.app"
+          className="text-xl text-blue-700 font-bold"
+        >
+          Web service at vercel.com
+        </Link>
       </div>
     </>
   )
